@@ -1,0 +1,21 @@
+main:
+    mov eax, 10
+L0_start:
+    cmp eax, 0
+    je L0_end
+    sub eax, 1
+    jmp L0_start
+L0_end:
+    call my_function
+
+my_function:
+    mov ebx, 5
+    cmp ebx, 5
+    jne L1_else
+    mov ecx, 10
+    jmp L1_end
+L1_else:
+    cmp ebx, 3
+    jne L1_end
+    mov ecx, 20
+L1_end:
