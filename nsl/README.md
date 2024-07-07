@@ -1,7 +1,3 @@
-### Documentation de **wys.compiler** pour Nebula Simple Language (NSL)
-
----
-
 #### Présentation
 
 **wys.compiler** est un compilateur développé par wys pour le langage Nebula Simple Language (NSL), un dialecte de haut niveau simplifié destiné à faciliter la programmation assembleur avec NASM. Ce projet est conforme aux standards de Nebula et est conçu pour être simple et intuitif.
@@ -103,7 +99,3 @@ L1_end:
 #### Conclusion
 
 **wys.compiler** pour Nebula Simple Language (NSL) simplifie le processus de programmation en assembleur en offrant une syntaxe claire et une gestion efficace des variables et des structures de contrôle. Il est conçu pour être facile à utiliser tout en respectant les standards de Nebula, facilitant ainsi le développement de logiciels bas-niveau.
-
----
-
-Cette documentation couvre les aspects essentiels de **wys.compiler** pour NSL, fournissant aux développeurs les informations nécessaires pour utiliser et comprendre le compilateur dans le contexte du langage NSL et des standards de Nebula.
