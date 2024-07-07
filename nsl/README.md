@@ -1,11 +1,11 @@
 #### Présentation
 
-**wys.compiler** est un compilateur développé par wys pour le langage Nebula Simple Language (NSL), un dialecte de haut niveau simplifié destiné à faciliter la programmation assembleur avec NASM. Ce projet est conforme aux standards de Nebula et est conçu pour être simple et intuitif.
+**Wys.compiler** est un compilateur développé par Wys pour le langage Nebula Simple Language (NSL), un dialecte de haut niveau simplifié destiné à faciliter la programmation assembleur avec NASM. Ce projet est conforme aux standards de Nebula et est conçu pour être simple et intuitif.
 
 #### Informations Générales
 
-- **Nom du Projet**: wys.compiler
-- **Développeur Principal**: wys
+- **Nom du Projet**: Wys.compiler
+- **Développeur Principal**: Wys
 - **Langage de Programmation**: C++
 - **Langage Compilé**: Nebula Simple Language (NSL)
 - **Normes**: Conforme aux standards de Nebula
@@ -53,7 +53,7 @@ func my_function() {
 ```
 
 2. **Compilation**:
-   - Compiler le fichier source NSL avec **wys.compiler** en utilisant la commande :
+   - Compiler le fichier source NSL avec **Wys.compiler** en utilisant la commande :
 
    ```sh
    g++ -o wys.compiler wys_compiler.cpp
@@ -61,7 +61,7 @@ func my_function() {
    ```
 
 3. **Assemblage et Liaison**:
-   - **wys.compiler** génère automatiquement les commandes pour assembler et lier le fichier de sortie en fonction du système d'exploitation détecté (Windows, macOS, Linux).
+   - **Wys.compiler** génère automatiquement les commandes pour assembler et lier le fichier de sortie en fonction du système d'exploitation détecté (Windows, macOS, Linux).
 
 #### Exemple de Fichier de Sortie `output.asm`
 
@@ -98,4 +98,4 @@ L1_end:
 
 #### Conclusion
 
-**wys.compiler** pour Nebula Simple Language (NSL) simplifie le processus de programmation en assembleur en offrant une syntaxe claire et une gestion efficace des variables et des structures de contrôle. Il est conçu pour être facile à utiliser tout en respectant les standards de Nebula, facilitant ainsi le développement de logiciels bas-niveau.
+**Wys.compiler** pour Nebula Simple Language (NSL) simplifie le processus de programmation en assembleur en offrant une syntaxe claire et une gestion efficace des variables et des structures de contrôle. Il est conçu pour être facile à utiliser tout en respectant les standards de Nebula, facilitant ainsi le développement de logiciels bas-niveau.
